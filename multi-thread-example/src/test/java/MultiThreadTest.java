@@ -4,10 +4,11 @@ import cas.performance.example.SyncCounter;
 import current.thread.example.CountOperate;
 import custom.lock.aqs.example.SharedResource;
 import org.junit.Test;
+import usingvolatile.example.AccessibleHandler;
+import usingvolatile.example.AtomicIntHandler;
+import usingvolatile.example.VolatileHandler;
 
-import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.*;
 
 /**
  * @author Lu Weijian
@@ -109,7 +110,7 @@ public class MultiThreadTest {
 
     }
 
-    //使用AQS模板的自定义排他锁的使用场景，示范了线程安全非安全的情况
+    //使用AQS模板的自定义排他锁的使用场景，示范了线程安全和非安全的情况
     @Test
     public void customLockAQSTest() {
         CyclicBarrier barrierStart = new CyclicBarrier(30);
@@ -173,4 +174,56 @@ public class MultiThreadTest {
 
 
     }
+
+    //显示i++的volatile非原子性
+    //AtomicInt的原子性
+    @Test
+    public void volatileNonAtomicTest(){
+        int nTotalThread = 1000;
+        ExecutorService service = Executors.newFixedThreadPool(nTotalThread);
+        for (int i = 0; i < nTotalThread; i++) {
+            System.out.println("创建线程" + i);
+            Runnable run = new VolatileHandler();
+            // 在未来某个时间执行给定的命令
+            service.execute(run);
+        }
+        // 关闭启动线程
+        service.shutdown();
+        // 等待子线程结束，再继续执行下面的代码
+        try{
+            service.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS);
+            System.out.println("total num is:" + VolatileHandler.getI());
+        }catch (InterruptedException ex){
+            ex.printStackTrace();
+        }
+
+        //--------------
+        service = Executors.newFixedThreadPool(nTotalThread);
+        for (int i = 0; i < nTotalThread; i++) {
+            System.out.println("创建线程" + i);
+            Runnable run = new AtomicIntHandler();
+            // 在未来某个时间执行给定的命令
+            service.execute(run);
+        }
+        // 关闭启动线程
+        service.shutdown();
+        // 等待子线程结束，再继续执行下面的代码
+        try{
+            service.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS);
+            System.out.println("total num is:" + AtomicIntHandler.getI());
+        }catch (InterruptedException ex){
+            ex.printStackTrace();
+        }
+
+        System.out.println("all thread complete");
+    }
+
+    //演示多线程下共享变量的可见性
+    @Test
+    public void varablesAccessibleTest(){
+        AccessibleHandler a = new AccessibleHandler();
+        //a.runNonAccessible();
+        a.runAccessible();
+    }
+
 }
