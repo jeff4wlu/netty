@@ -16,6 +16,7 @@ import java.util.List;
  */
 public class NIOServerTest {
 
+    //非netty的主从reactor模型
     @Test
     public void mainSubServer(){
         try {
@@ -27,6 +28,7 @@ public class NIOServerTest {
         }
     }
 
+    //非netty的多线程reactor模型
     @Test
     public void multiThreadServer(){
         try {
@@ -38,7 +40,7 @@ public class NIOServerTest {
         }
     }
 
-
+    //非netty的单线程reactor模型
     @Test
     public void singleThreadServer(){
         try {
@@ -50,6 +52,7 @@ public class NIOServerTest {
         }
     }
 
+    //netty的多线程reactor模型
     @Test
     public void nettyMultiThreadServer(){
         Runnable runnable = new NettyMultiThreadServer();
@@ -63,6 +66,7 @@ public class NIOServerTest {
         }
     }
 
+    //单线程的无selector的NIO模型
     @Test
     public void nonSelectableNIOServer(){
         Runnable runnable = new NonSelectableNIOServer();
@@ -76,6 +80,7 @@ public class NIOServerTest {
         }
     }
 
+    //单线程的有selector的NIO模型
     @Test
     public void seletableNIOServer(){
         Runnable runnable = new SelectableNIOServer();

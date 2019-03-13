@@ -8,7 +8,7 @@ import java.nio.channels.SocketChannel;
 
 /**
  * @author Lu Weijian
- * @description 备注
+ * @description 跑在主线程上
  * @email lwj@kapark.cn
  * @date 2019-03-06 14:08
  */

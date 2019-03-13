@@ -8,7 +8,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * @author Lu Weijian
- * @description 备注
+ * @description 由工作线程处理真正的业务（非IO业务）
  * @email lwj@kapark.cn
  * @date 2019-03-06 14:10
  */

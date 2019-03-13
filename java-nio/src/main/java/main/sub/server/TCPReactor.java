@@ -9,7 +9,12 @@ import java.util.Iterator;
 import java.util.Set;
 /**
  * @author Lu Weijian
- * @description 备注
+ * @description 多个selector：其中一个负责监听accept事件，跑在主线程上；
+ * 其他selector负责监听read/write事件，每个selector跑在一个线程中（共CPU核数个线程）
+ * 主线程负责监听接入，并为每个新接入生成channel且为它们注册读写事件到其他selector
+ * selector线程监听读写事件，并处理解包等工作，获取真正的业务信息。
+ * 工作线程处理每个真正的业务信息（线程池方式）
+ * 线程模型是1：N：M
  * @email lwj@kapark.cn
  * @date 2019-03-06 14:18
  */

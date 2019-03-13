@@ -9,7 +9,8 @@ import java.util.Iterator;
 import java.util.Set;
 /**
  * @author Lu Weijian
- * @description 备注
+ * @description 所有IO事件处理和业务处理都在一个线程一个selector上
+ * 线程模型，1
  * @email lwj@kapark.cn
  * @date 2019-03-06 13:50
  */

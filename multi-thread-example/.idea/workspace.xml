@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5445ca5-de5a-478a-a900-4587e5fb9044" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../java-nio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/RPCClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/ServiceCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/test/java/RPCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MultiThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MultiThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MultiThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MultiThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reentrance-lock-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reentrance-lock-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +24,7 @@
     <session id="1876223575">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.44" value="1" />
@@ -31,11 +34,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="21" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="21" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -55,15 +60,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/current/thread/example/CountOperate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21660">
@@ -80,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MultiThreadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
+            <state relative-caret-position="446">
               <caret line="224" column="10" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,11 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/usingvolatile/example/AccessibleHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
               <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -390,7 +395,7 @@
       <updated>1551959335066</updated>
       <workItem from="1551959336431" duration="26610000" />
       <workItem from="1552437552789" duration="13000" />
-      <workItem from="1552437617292" duration="521000" />
+      <workItem from="1552437617292" duration="1796000" />
     </task>
     <servers />
   </component>
@@ -427,13 +432,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27144000" />
+    <option name="totallyTimeSpent" value="28419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49503547" visible="true" weight="0.25670242" />
-      <window_info id="Structure" order="1" sideWeight="0.50496453" side_tool="true" visible="true" weight="0.25670242" />
+      <window_info id="Structure" order="1" sideWeight="0.50496453" side_tool="true" weight="0.25670242" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -470,17 +476,16 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/current/thread/example/CountOperation.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+            <element signature="e#43969#43970#0" expanded="true" />
+            <element signature="e#43996#43997#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -520,19 +525,6 @@
             <element signature="e#42619#42620#0" expanded="true" />
             <element signature="e#45599#45600#0" expanded="true" />
             <element signature="e#45656#45657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="224" column="10" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#casPerformanceTest#0;class#MultiThreadTest#0" />
-            <element signature="method#currentThreadTest#0;class#MultiThreadTest#0" />
-            <element signature="method#customLockAQSTest#0;class#MultiThreadTest#0" />
           </folding>
         </state>
       </provider>
@@ -590,6 +582,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MultiThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="224" column="10" selection-start-line="224" selection-start-column="10" selection-end-line="224" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#casPerformanceTest#0;class#MultiThreadTest#0" />
+            <element signature="method#currentThreadTest#0;class#MultiThreadTest#0" />
+            <element signature="method#customLockAQSTest#0;class#MultiThreadTest#0" />
+          </folding>
         </state>
       </provider>
     </entry>

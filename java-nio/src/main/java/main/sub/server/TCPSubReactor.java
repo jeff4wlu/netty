@@ -8,7 +8,8 @@ import java.util.Iterator;
 import java.util.Set;
 /**
  * @author Lu Weijian
- * @description 备注
+ * @description 当连接的读写IO到达后，IO事件处理会跑在TCPSubReactor的线程上。
+ * 实际上就是占用subreactor的资源，感觉不是真正的主从。
  * @email lwj@kapark.cn
  * @date 2019-03-06 14:19
  */

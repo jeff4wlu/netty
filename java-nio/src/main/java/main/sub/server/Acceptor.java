@@ -7,7 +7,9 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 /**
  * @author Lu Weijian
- * @description 备注
+ * @description 跑在主线程上，任务是把新连接的读写事件注册到TCPSubReactor上。
+ * 每个TCPSubReactor跑在一个子线程上，子线程数为CPU核数。
+ * 这些子线程一直在跑，也不在线程池中，除非主线程关掉。
  * @email lwj@kapark.cn
  * @date 2019-03-06 14:18
  */
@@ -46,7 +48,7 @@ public class Acceptor implements Runnable {
                         SelectionKey.OP_READ); // SocketChannel向selector[selIdx]註冊一個OP_READ事件，然後返回該通道的key
                 selectors[selIdx].wakeup(); // 使一個阻塞住的selector操作立即返回
                 r[selIdx].setRestart(false); // 重啟線程
-                sk.attach(new TCPHandler(sk, sc)); // 給定key一個附加的TCPHandler對象
+                sk.attach(new TCPHandler(sk, sc)); // 給定key一個附加的TCPHandler對象，此处为读事件添加处理handler
                 if (++selIdx == selectors.length)
                     selIdx = 0;
             }
