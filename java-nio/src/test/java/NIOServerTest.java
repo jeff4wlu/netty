@@ -1,3 +1,4 @@
+import io.netty.channel.nio.NioEventLoop;
 import org.junit.Test;
 
 import java.io.IOException;

@@ -10,7 +10,8 @@ import java.util.Set;
 
 /**
  * @author Lu Weijian
- * @description 跑在主线程上的监听端口，处理accept事件
+ * @description JAVA NIO的多线程reactor模式
+ * 跑在主线程上的监听端口，处理accept事件
  * accept、read、write事件都是由同一个selector监听，并且其IO事件处理都跑在主线程上。
  * 但解包后的业务处理是放在线程池上跑。
  * 线程模型, 1：M
