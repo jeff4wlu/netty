@@ -1,4 +1,4 @@
-package rpc.version.one;
+package rpc.version.common;
 
 /**
  * @author Lu Weijian
@@ -8,4 +8,5 @@ package rpc.version.one;
  */
 public interface HelloService {
     String sayHi(String name);
+    Person handlePerson(Person person);
 }

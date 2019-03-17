@@ -2,35 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98ddc26a-34c1-4c29-a6b2-f47ab55eec97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/packagesplicing/example/BadTimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/packagesplicing/example/BadTimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/packagesplicing/example/BadTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/packagesplicing/example/BadTimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/packagesplicing/example/GoodTimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/packagesplicing/example/GoodTimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/packagesplicing/example/GoodTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/packagesplicing/example/GoodTimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/protobuf/simple/example/Msg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/Msg.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PackageSplicingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProtobufTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialize/example/SerializableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialize/example/objectinputstream/SerializeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/serialize/example/protostuff/ProtostuffTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OtherElseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/ProtostuffUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/ServiceCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/Msg.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/Msg.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Msg.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Msg.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/protobuf/simple/example/EchoPOJOClient$EchoClientHander.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/protobuf/simple/example/EchoPOJOClient$EchoClientHander.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/protobuf/simple/example/EchoPOJOClient$MsgEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/protobuf/simple/example/EchoPOJOClient$MsgEncoder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-nio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/src/main/java/main/sub/server/TCPReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/src/main/java/main/sub/server/TCPReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/src/main/java/multi/thread/server/TCPReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/src/main/java/multi/thread/server/TCPReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/src/main/java/single/thread/server/TCPReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/src/main/java/single/thread/server/TCPReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/src/test/java/NIOServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/src/test/java/NIOServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/target/classes/main/sub/server/Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/target/classes/main/sub/server/Acceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/target/classes/main/sub/server/TCPReactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/target/classes/main/sub/server/TCPReactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/target/classes/main/sub/server/TCPSubReactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/target/classes/main/sub/server/TCPSubReactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/target/classes/multi/thread/server/TCPReactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/target/classes/multi/thread/server/TCPReactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/target/classes/single/thread/server/TCPReactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/target/classes/single/thread/server/TCPReactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/target/test-classes/NIOServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/target/test-classes/NIOServerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpc-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/RPCClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/ServiceCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/test/java/RPCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/test/java/RPCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/HelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/HelloServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/RPCClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/RPCClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/RPCClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/ServiceCenter$ServiceTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/ServiceCenter$ServiceTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/ServiceCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/ServiceCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,7 +55,7 @@
     <session id="1555737372">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="2" />
@@ -52,30 +63,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="class" value="1" />
+          <entry key="java" value="39" />
           <entry key="properties" value="1" />
           <entry key="proto" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="39" />
           <entry key="PROTO" value="1" />
           <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1162" />
+          <entry key="java" value="2416" />
           <entry key="properties" value="5" />
-          <entry key="xml" value="12" />
+          <entry key="proto" value="22" />
+          <entry key="xml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1162" />
+          <entry key="JAVA" value="2416" />
+          <entry key="PROTO" value="22" />
           <entry key="Properties" value="5" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="31" />
         </counts>
       </usages-collector>
     </session>
@@ -83,40 +100,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/packagesplicing/example/GoodTimeClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PackageSplicingTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
+              <caret line="32" column="9" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,47 +112,79 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/proto/Msg.proto">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OtherElseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/Msg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="41" />
+            <state relative-caret-position="348">
+              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#827#1180#0" expanded="true" />
-                <element signature="e#1179#1180#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serialize/example/objectinputstream/SerializeTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOServer.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="427">
+              <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+              <folding>
+                <element signature="n#build#0;n#project#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serialize/example/protostuff/ProtostuffUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#996#1451#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serialize/example/SerializableEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serialize/example/protostuff/ProtostuffTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.3.0/protobuf-java-3.3.0.jar!/com/google/protobuf/Parser.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -173,8 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ProtobufTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="258">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,6 +213,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Now is</find>
+      <find>\r</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,13 +231,20 @@
         <option value="$PROJECT_DIR$/src/main/java/packagesplicing/example/GoodTimeClient.java" />
         <option value="$PROJECT_DIR$/src/test/java/PackageSplicingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/packagesplicing/example/GoodTimeServer.java" />
-        <option value="$PROJECT_DIR$/src/main/proto/Msg.proto" />
         <option value="$PROJECT_DIR$/src/main/java/protobuf/simple/example/Msg.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/ProtobufTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOServer.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/Msg.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/serialize/example/objectinputstream/SerializableEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serialize/example/protostuff/PrototuffUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serialize/example/protostuff/ProtostuffUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serialize/example/SerializableEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serialize/example/objectinputstream/SerializeTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OtherElseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/serialize/example/protostuff/ProtostuffTask.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -250,7 +277,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1040" />
@@ -303,12 +330,37 @@
               <item name="communication-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="objectinputstream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communicationexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="communication-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="protostuff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communicationexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="communication-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communicationexample" type="b2602c69:ProjectViewProjectNode" />
               <item name="communication-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communicationexample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="communication-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,32 +368,6 @@
               <item name="communication-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="communicationexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="communication-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="communicationexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="communication-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="communicationexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="communication-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="communicationexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="communication-example" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -353,7 +379,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552568691999" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552803487334" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -375,7 +401,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProtobufTest.simpleEchoPOJOTest">
+  <component name="RunManager" selected="JUnit.OtherElseTest.SimpleSerializeTest">
+    <configuration name="OtherElseTest.SimpleSerializeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="communication-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OtherElseTest" />
+      <option name="METHOD_NAME" value="SimpleSerializeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PackageSplicingTest.noPackageSplicingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="communication-example" />
       <option name="PACKAGE_NAME" value="" />
@@ -410,9 +446,11 @@
       <item itemvalue="JUnit.PackageSplicingTest.noPackageSplicingTest" />
       <item itemvalue="JUnit.PackageSplicingTest.packageSplicingTest" />
       <item itemvalue="JUnit.ProtobufTest.simpleEchoPOJOTest" />
+      <item itemvalue="JUnit.OtherElseTest.SimpleSerializeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OtherElseTest.SimpleSerializeTest" />
         <item itemvalue="JUnit.ProtobufTest.simpleEchoPOJOTest" />
         <item itemvalue="JUnit.PackageSplicingTest.packageSplicingTest" />
         <item itemvalue="JUnit.PackageSplicingTest.noPackageSplicingTest" />
@@ -430,60 +468,60 @@
       <option name="presentableId" value="Default" />
       <updated>1552533074077</updated>
       <workItem from="1552533075903" duration="9006000" />
-      <workItem from="1552562640483" duration="4787000" />
+      <workItem from="1552562640483" duration="26942000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PackageSplicingTest_noPackageSplicingTest - 2019.03.14 at 13h 14m 45s.xml">
-      <configuration name="PackageSplicingTest.noPackageSplicingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageSplicingTest_noPackageSplicingTest - 2019.03.14 at 13h 20m 38s.xml">
-      <configuration name="PackageSplicingTest.noPackageSplicingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageSplicingTest_noPackageSplicingTest - 2019.03.14 at 13h 22m 17s.xml">
-      <configuration name="PackageSplicingTest.noPackageSplicingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageSplicingTest_noPackageSplicingTest - 2019.03.14 at 13h 25m 23s.xml">
-      <configuration name="PackageSplicingTest.noPackageSplicingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageSplicingTest_noPackageSplicingTest - 2019.03.14 at 13h 31m 01s.xml">
-      <configuration name="PackageSplicingTest.noPackageSplicingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageSplicingTest_noPackageSplicingTest - 2019.03.14 at 13h 34m 15s.xml">
-      <configuration name="PackageSplicingTest.noPackageSplicingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageSplicingTest_noPackageSplicingTest - 2019.03.14 at 14h 11m 55s.xml">
-      <configuration name="PackageSplicingTest.noPackageSplicingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PackageSplicingTest_noPackageSplicingTest - 2019.03.14 at 14h 13m 22s.xml">
-      <configuration name="PackageSplicingTest.noPackageSplicingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProtobufTest_simpleEchoPOJOTest - 2019.03.14 at 20h 01m 57s.xml">
-      <configuration name="ProtobufTest.simpleEchoPOJOTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProtobufTest_simpleEchoPOJOTest - 2019.03.14 at 20h 09m 31s.xml">
       <configuration name="ProtobufTest.simpleEchoPOJOTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProtobufTest_simpleEchoPOJOTest - 2019.03.17 at 09h 25m 37s.xml">
+      <configuration name="ProtobufTest.simpleEchoPOJOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OtherElseTest_SimpleSerializeTest - 2019.03.17 at 09h 30m 58s.xml">
+      <configuration name="OtherElseTest.SimpleSerializeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OtherElseTest_SimpleSerializeTest - 2019.03.17 at 09h 38m 46s.xml">
+      <configuration name="OtherElseTest.SimpleSerializeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OtherElseTest_SimpleSerializeTest - 2019.03.17 at 09h 44m 27s.xml">
+      <configuration name="OtherElseTest.SimpleSerializeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OtherElseTest_SimpleSerializeTest - 2019.03.17 at 09h 44m 34s.xml">
+      <configuration name="OtherElseTest.SimpleSerializeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OtherElseTest_SimpleSerializeTest - 2019.03.17 at 10h 21m 47s.xml">
+      <configuration name="OtherElseTest.SimpleSerializeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OtherElseTest_SimpleSerializeTest - 2019.03.17 at 10h 22m 41s.xml">
+      <configuration name="OtherElseTest.SimpleSerializeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OtherElseTest_SimpleSerializeTest - 2019.03.17 at 10h 23m 47s.xml">
+      <configuration name="OtherElseTest.SimpleSerializeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OtherElseTest_SimpleSerializeTest - 2019.03.17 at 13h 32m 19s.xml">
+      <configuration name="OtherElseTest.SimpleSerializeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13793000" />
+    <option name="totallyTimeSpent" value="35948000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49774775" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" sideWeight="0.5022523" side_tool="true" weight="0.2533512" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.55602837" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.14184397" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.19574468" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -606,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -620,10 +651,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="231" column="7" lean-forward="true" selection-start-line="231" selection-start-column="7" selection-end-line="231" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.3.0/protobuf-java-3.3.0.jar!/com/google/protobuf/Parser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#827#1180#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="method#sendTOServer#0;class#EchoPOJOClient#0" />
+            <element signature="class#EchoClientHander#0;class#EchoPOJOClient#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#996#1451#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/protobuf/simple/example/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="430" column="23" selection-start-line="430" selection-start-column="23" selection-end-line="430" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/Msg.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PackageSplicingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
+          <caret line="32" column="9" selection-start-line="21" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="500" column="22" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serialize/example/protostuff/PrototuffUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serialize/example/SerializableEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serialize/example/objectinputstream/SerializeTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OtherElseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -632,48 +761,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProtobufTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="258">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/serialize/example/protostuff/ProtostuffUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="418">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#827#1180#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/Msg.proto">
+    <entry file="file://$PROJECT_DIR$/src/main/java/serialize/example/protostuff/ProtostuffTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="316">
+          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/protobuf/simple/example/Msg.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1126">
-          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/protobuf/simple/example/EchoPOJOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="427">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#996#1451#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
           </folding>
         </state>
       </provider>

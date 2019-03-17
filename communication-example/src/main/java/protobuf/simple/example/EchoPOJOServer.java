@@ -13,7 +13,7 @@ import org.apache.log4j.Logger;
 
 /**
  * @author Lu Weijian
- * @description 备注
+ * @description 本服务器只是接收一个简单的POJO传送，而不是RPC框架的那种需要传服务名、方法名、参数等
  * @email lwj@kapark.cn
  * @date 2019-03-14 19:37
  */

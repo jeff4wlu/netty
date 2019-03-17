@@ -11,6 +11,7 @@ import java.net.Socket;
 /**
  * @author Lu Weijian
  * @description 客户端的远程代理对象
+ * 向服务器传送一个协议对象（服务名、方法名、参数类型、参数值）
  * @email lwj@kapark.cn
  * @date 2019-03-13 8:59
  */
@@ -30,14 +31,14 @@ public class RPCClient<T> {
 
                             // 3.将远程服务调用所需的接口类、方法名、参数列表等编码后发送给服务提供者
                             output = new ObjectOutputStream(socket.getOutputStream());
-                            output.writeUTF(serviceInterface.getName());
-                            output.writeUTF(method.getName());
-                            output.writeObject(method.getParameterTypes());
-                            output.writeObject(args);
+                            output.writeUTF(serviceInterface.getName());//服务名
+                            output.writeUTF(method.getName());//方法名
+                            output.writeObject(method.getParameterTypes());//参数类型
+                            output.writeObject(args);//参数值
 
                             // 4.同步阻塞等待服务器返回应答，获取应答后返回
                             input = new ObjectInputStream(socket.getInputStream());
-                            return input.readObject();
+                            return input.readObject();//阻塞
                         } finally {
                             if (socket != null) socket.close();
                             if (output != null) output.close();

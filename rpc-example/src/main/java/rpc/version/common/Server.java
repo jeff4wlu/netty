@@ -1,4 +1,4 @@
-package rpc.version.one;
+package rpc.version.common;
 
 import java.io.IOException;
 

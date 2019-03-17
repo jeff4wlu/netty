@@ -2,29 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdaa33f-7977-4484-ae04-8ae59d9da6dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../communication-example/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/packagesplicing/example/BadTimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/packagesplicing/example/BadTimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/packagesplicing/example/BadTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/packagesplicing/example/BadTimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/packagesplicing/example/GoodTimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/packagesplicing/example/GoodTimeClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/packagesplicing/example/GoodTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/packagesplicing/example/GoodTimeServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/test/java/PackageSplicingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../communication-example/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/serialize/example/SerializableEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/serialize/example/objectinputstream/SerializeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/serialize/example/protostuff/ProtostuffTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../communication-example/src/test/java/OtherElseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/ProtostuffUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCRequestDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCResponseDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/RPCServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/two/ServiceCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rpc-example/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../communication-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../communication-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../communication-example/src/main/java/protobuf/simple/example/EchoPOJOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/src/main/java/protobuf/simple/example/EchoPOJOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../communication-example/src/main/proto/Msg.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/src/main/proto/Msg.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../communication-example/target/classes/Msg.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/target/classes/Msg.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../communication-example/target/classes/protobuf/simple/example/EchoPOJOClient$EchoClientHander.class" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/target/classes/protobuf/simple/example/EchoPOJOClient$EchoClientHander.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../communication-example/target/classes/protobuf/simple/example/EchoPOJOClient$MsgEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/target/classes/protobuf/simple/example/EchoPOJOClient$MsgEncoder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/sub/server/TCPReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/sub/server/TCPReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/multi/thread/server/TCPReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multi/thread/server/TCPReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/single/thread/server/TCPReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/single/thread/server/TCPReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NIOServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NIOServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/sub/server/Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/sub/server/Acceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/sub/server/TCPReactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/sub/server/TCPReactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/sub/server/TCPSubReactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/sub/server/TCPSubReactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/multi/thread/server/TCPReactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/multi/thread/server/TCPReactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/single/thread/server/TCPReactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/single/thread/server/TCPReactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/NIOServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NIOServerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rpc-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/common/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/RPCClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/main/java/rpc/version/one/ServiceCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/src/test/java/RPCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/src/test/java/RPCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/HelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/HelloServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/RPCClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/RPCClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/RPCClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/ServiceCenter$ServiceTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/ServiceCenter$ServiceTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/ServiceCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rpc-example/target/classes/rpc/version/one/ServiceCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rpc-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,13 +57,13 @@
     <session id="-1976296061">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -77,7 +96,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/NIOServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
@@ -113,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NettyMultiThreadServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state relative-caret-position="294">
+              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -128,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SimpleHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="38">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -288,7 +307,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -332,6 +350,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,6 +468,7 @@
       <workItem from="1552459745389" duration="11279000" />
       <workItem from="1552523675996" duration="3976000" />
       <workItem from="1552562638127" duration="368000" />
+      <workItem from="1552653679894" duration="1250000" />
     </task>
     <servers />
   </component>
@@ -485,13 +505,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59798000" />
+    <option name="totallyTimeSpent" value="61048000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1552" height="832" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5493562" visible="true" weight="0.2523427" />
-      <window_info id="Structure" order="1" sideWeight="0.45064378" side_tool="true" visible="true" weight="0.2523427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5475177" visible="true" weight="0.25603217" />
+      <window_info id="Structure" order="1" sideWeight="0.45248228" side_tool="true" visible="true" weight="0.25603217" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -517,7 +537,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.058902275" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.058981232" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -931,30 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NettyMultiThreadServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleHandlerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -986,6 +982,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NettyMultiThreadServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleHandlerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SimpleHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

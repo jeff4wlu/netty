@@ -1,5 +1,7 @@
 package rpc.version.one;
 
+import rpc.version.common.Server;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -13,7 +15,8 @@ import java.util.concurrent.Executors;
 
 /**
  * @author Lu Weijian
- * @description 备注
+ * @description 本服务器使用JAVA IO模型（BIO）
+ * 每次提供服务后都会断开链接，效率比较低。
  * @email lwj@kapark.cn
  * @date 2019-03-13 8:57
  */
@@ -49,6 +52,7 @@ public class ServiceCenter implements Server {
         }
     }
 
+    //注册服务器提供的RPC服务
     public void register(Class serviceInterface, Class impl) {
         serviceRegistry.put(serviceInterface.getName(), impl);
     }
@@ -61,6 +65,7 @@ public class ServiceCenter implements Server {
         return port;
     }
 
+    //处理客户端传过来的RPC内容
     private static class ServiceTask implements Runnable {
         Socket client = null;
 
