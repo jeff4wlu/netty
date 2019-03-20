@@ -2,45 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75caef6f-53c1-41f2-a3f5-3b311184497e" name="Default Changelist" comment="RPC框架第二版完成，对比1版改进是使用了netty的NIO模型通讯，使用protostuff进行序列化">
-      <change afterPath="$PROJECT_DIR$/../communication-example/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/serialize/example/SerializableEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/serialize/example/objectinputstream/SerializeTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/main/java/serialize/example/protostuff/ProtostuffTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../communication-example/src/test/java/OtherElseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/common/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/common/ProtostuffUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/common/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/ServiceCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelPoolRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/SyncFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/UnicodeUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../communication-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../communication-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../communication-example/src/main/java/protobuf/simple/example/EchoPOJOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/src/main/java/protobuf/simple/example/EchoPOJOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../communication-example/src/main/proto/Msg.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/src/main/proto/Msg.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../communication-example/target/classes/Msg.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/target/classes/Msg.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../communication-example/target/classes/protobuf/simple/example/EchoPOJOClient$EchoClientHander.class" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/target/classes/protobuf/simple/example/EchoPOJOClient$EchoClientHander.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../communication-example/target/classes/protobuf/simple/example/EchoPOJOClient$MsgEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../communication-example/target/classes/protobuf/simple/example/EchoPOJOClient$MsgEncoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-nio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-nio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/one/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/common/HelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/one/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/common/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/one/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/one/RPCClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/one/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/one/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/one/ServiceCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/version/two/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpc/version/two/ServiceCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RPCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RPCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/one/HelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/one/HelloServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/one/RPCClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/one/RPCClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/one/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/one/RPCClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/one/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/one/ServiceCenter$ServiceTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/one/ServiceCenter$ServiceTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/one/ServiceCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/one/ServiceCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/two/RPCServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/ServiceCenter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/two/ServiceCenter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpc/version/two/ServiceCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpc/version/two/ServiceCenter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RPCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RPCTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,6 +37,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/rpcexample$RPCTest_versionTwoTest.ic" NAME="RPCTest.versionTwoTest Coverage Results" MODIFIED="1553047489891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -78,36 +69,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="130" />
+          <entry key="class" value="4" />
+          <entry key="java" value="182" />
           <entry key="properties" value="1" />
           <entry key="proto" value="6" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="130" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="182" />
           <entry key="PROTO" value="6" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4920" />
+          <entry key="java" value="6850" />
           <entry key="proto" value="251" />
           <entry key="txt" value="56" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4920" />
+          <entry key="JAVA" value="6850" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="PROTO" value="251" />
-          <entry key="XML" value="13" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -115,10 +106,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RPCTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+            <state relative-caret-position="20">
+              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#versionOneTest#0;class#RPCTest#0" />
@@ -127,63 +130,50 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelPoolRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="42" column="92" selection-start-line="42" selection-start-column="92" selection-end-line="42" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#730#1022#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelPoolHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClient.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/pool/SimpleChannelPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="259">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1685#2114#0" expanded="true" />
-                <element signature="e#2113#2114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/ServiceCenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="164" column="30" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="303" selection-start-line="303" selection-end-line="303" />
-              <folding>
-                <element signature="e#5714#5715#0" expanded="true" />
-                <element signature="e#5745#5746#0" expanded="true" />
-                <element signature="e#9660#9661#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-              <folding>
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#7261#7262#0" expanded="true" />
+                <element signature="e#7348#7349#0" expanded="true" />
+                <element signature="e#11192#11193#0" expanded="true" />
+                <element signature="e#11227#11228#0" expanded="true" />
+                <element signature="e#15447#15448#0" expanded="true" />
+                <element signature="e#15523#15524#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,10 +182,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/one/RPCClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+            <state relative-caret-position="248">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="518" column="70" selection-start-line="518" selection-start-column="70" selection-end-line="518" selection-end-column="70" />
+              <folding>
+                <element signature="e#5714#5715#0" expanded="true" />
+                <element signature="e#5745#5746#0" expanded="true" />
+                <element signature="e#9610#9611#0" expanded="true" />
+                <element signature="e#9660#9661#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,29 +209,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="17">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCDecoder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="262">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -257,6 +250,20 @@
       <find>chanle is closed</find>
       <find>ctx</find>
       <find>channel is closed</find>
+      <find>channel is closed</find>
+      <find>23XG9LC1</find>
+      <find>4NBMUDVG</find>
+      <find>codec</find>
+      <find>可读长度是</find>
+      <find>port</find>
+      <find>age=</find>
+      <find>age=56</find>
+      <find>age=59</find>
+      <find>age=20</find>
+      <find>test</find>
+      <find>logger</find>
+      <find>channelAcquired</find>
+      <find>connect</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -280,26 +287,34 @@
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/common/HelloServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/common/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/ResponseEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCResponseDecoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/MsgEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/EchoClientHander.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCResponseEncoder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/common/ProtostuffUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCRequestDecoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCRequestEncoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/ServiceCenter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCEncoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCDecoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHander.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientStub.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/ChannelPoolHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/SyncFuture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/UnicodeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/MsgFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/ServiceCenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelPoolHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/RPCTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelPoolRepo.java" />
       </list>
     </option>
   </component>
@@ -389,32 +404,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="version" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpcexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpc-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="version" type="462c0819:PsiDirectoryNode" />
-              <item name="one" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpcexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpc-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="version" type="462c0819:PsiDirectoryNode" />
               <item name="two" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpcexample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpc-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rpcexample" type="b2602c69:ProjectViewProjectNode" />
@@ -439,7 +429,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552816929708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553054476388" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -526,7 +516,7 @@
       <workItem from="1552438124815" duration="7083000" />
       <workItem from="1552523675771" duration="831000" />
       <workItem from="1552562636014" duration="370000" />
-      <workItem from="1552569224165" duration="61531000" />
+      <workItem from="1552569224165" duration="99583000" />
     </task>
     <task id="LOCAL-00001" summary="RPC框架第二版完成，对比1版改进是使用了netty的NIO模型通讯，使用protostuff进行序列化">
       <created>1552816936709</created>
@@ -539,55 +529,54 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 43m 46s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 09h 22m 35s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 44m 02s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 09h 46m 16s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 44m 56s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 09h 48m 04s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 46m 48s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 09h 59m 53s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 47m 20s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 10h 00m 17s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 47m 46s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 10h 04m 47s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 48m 14s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 10h 04m 59s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 52m 32s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 10h 05m 11s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 55m 26s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 10h 05m 34s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RPCTest_versionTwoTest - 2019.03.17 at 17h 56m 30s.xml">
+    <history-entry file="RPCTest_versionTwoTest - 2019.03.20 at 11h 58m 49s.xml">
       <configuration name="RPCTest.versionTwoTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69815000" />
+    <option name="totallyTimeSpent" value="107867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7192308" visible="true" weight="0.23592493" />
-      <window_info id="Structure" order="1" sideWeight="0.28076923" side_tool="true" visible="true" weight="0.23592493" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.26360545" visible="true" weight="0.23592493" />
+      <window_info id="Structure" order="1" sideWeight="0.7363946" side_tool="true" weight="0.23592493" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.05248227" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5177305" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15886524" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5361702" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.089361705" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40141845" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -595,7 +584,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.6312057" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.015602837" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.50236964" side_tool="true" visible="true" weight="0.113270774" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -604,7 +594,7 @@
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.113270774" />
+      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49763033" visible="true" weight="0.113270774" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,219 +612,20 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/RPCTest.java</url>
-          <line>32</line>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelPoolHandler.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/common/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/Unpooled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="1787" column="22" lean-forward="true" selection-start-line="1787" selection-start-column="22" selection-end-line="1787" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/LineBasedFrameDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding>
-            <element signature="e#2283#2284#0" expanded="true" />
-            <element signature="e#2327#2328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GenerateProto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/Msg.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/common/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/common/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/common/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/one/ServiceCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#start#0;class#ServiceCenter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/common/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#serialize#0;class#Utils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/ResponseEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/MsgEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/common/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/EchoClientHander.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/AbstractByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-          <folding>
-            <element signature="e#5703#5704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="277" selection-start-line="277" selection-end-line="277" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -891,41 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1909" column="28" selection-start-line="1909" selection-start-column="28" selection-end-line="1909" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHander.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -976,18 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="303" selection-start-line="303" selection-end-line="303" />
-          <folding>
-            <element signature="e#5714#5715#0" expanded="true" />
-            <element signature="e#5745#5746#0" expanded="true" />
-            <element signature="e#9660#9661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientStub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -998,72 +746,254 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="164" column="30" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="30" />
+        <state relative-caret-position="193">
+          <caret line="185" column="18" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/one/RPCClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        <state relative-caret-position="153">
+          <caret line="200" column="27" selection-start-line="200" selection-start-column="27" selection-end-line="200" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="190" column="12" selection-start-line="190" selection-start-column="12" selection-end-line="190" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1736#1737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar!/org/apache/commons/pool2/PooledObjectFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar!/org/apache/commons/pool2/impl/GenericObjectPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#1061#1394#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2067#2068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/ChannelPoolHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/ServiceCenter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="161" column="26" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="303" column="6" selection-start-line="303" selection-start-column="6" selection-end-line="303" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/pool/ChannelPoolMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/pool/AbstractChannelPoolMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/UnicodeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2242">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../pgm/Java/jdk1.8.0_192/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="270" column="29" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/SyncFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="54">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/MsgFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="148">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="106">
+          <caret line="84" column="22" lean-forward="true" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/buffer/ByteBuf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="1817" column="28" selection-start-line="1817" selection-start-column="28" selection-end-line="1817" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/ServiceCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="61" column="91" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
           <folding>
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RPCTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="20">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#versionOneTest#0;class#RPCTest#0" />
@@ -1073,12 +1003,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="195">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1685#2114#0" expanded="true" />
-            <element signature="e#2113#2114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="518" column="70" selection-start-line="518" selection-start-column="70" selection-end-line="518" selection-end-column="70" />
+          <folding>
+            <element signature="e#5714#5715#0" expanded="true" />
+            <element signature="e#5745#5746#0" expanded="true" />
+            <element signature="e#9610#9611#0" expanded="true" />
+            <element signature="e#9660#9661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/one/RPCClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelPoolRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="42" column="92" selection-start-line="42" selection-start-column="92" selection-end-line="42" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#730#1022#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rpc/version/two/RPCClientChannelPoolHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/pool/SimpleChannelPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="e#7261#7262#0" expanded="true" />
+            <element signature="e#7348#7349#0" expanded="true" />
+            <element signature="e#11192#11193#0" expanded="true" />
+            <element signature="e#11227#11228#0" expanded="true" />
+            <element signature="e#15447#15448#0" expanded="true" />
+            <element signature="e#15523#15524#0" expanded="true" />
           </folding>
         </state>
       </provider>

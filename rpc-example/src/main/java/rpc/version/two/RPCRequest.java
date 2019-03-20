@@ -12,6 +12,7 @@ import java.util.List;
  */
 @Data
 public class RPCRequest{
+    private String msgId;
     private String serviceName;
     private String methodName;
     private Class[] paramsType;

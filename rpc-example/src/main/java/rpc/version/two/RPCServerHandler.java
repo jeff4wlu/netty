@@ -45,8 +45,9 @@ class RPCServerHandler extends ChannelInboundHandlerAdapter {
         RPCResponse res = new RPCResponse();
         res.setCode(200);
         res.setResult(result);
+        res.setMsgId(req.getMsgId());
         ctx.writeAndFlush(res);
-        ctx.close();//是否能关闭TCP链接，从而可以通知对方接受结果
+
     }
 
     @Override

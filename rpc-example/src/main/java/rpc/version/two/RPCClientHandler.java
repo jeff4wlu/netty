@@ -17,12 +17,13 @@ public class RPCClientHandler extends ChannelInboundHandlerAdapter {
 
     private static final Logger logger = Logger.getLogger(RPCClientHandler.class);
 
-    private Object response;
-
     //收到服务端数据，唤醒等待线程
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        response = ((RPCResponse)msg).getResult();
+        RPCResponse response = ((RPCResponse)msg);
+        SyncFuture f = RPCClientChannelPoolRepo.futureMap.get(response.getMsgId());
+        if(f != null)
+            f.setResponse(response.getResult());
     }
 
     @Override
@@ -31,9 +32,4 @@ public class RPCClientHandler extends ChannelInboundHandlerAdapter {
         ctx.flush();
         ctx.close();
     }
-
-    public Object getResponse() {
-        return this.response;
-    }
-
 }

@@ -3,11 +3,15 @@ package rpc.version.two;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.pool.SimpleChannelPool;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.util.concurrent.Future;
+import io.netty.util.concurrent.FutureListener;
 import org.apache.log4j.Logger;
 
 import java.lang.reflect.Proxy;
+import java.net.InetSocketAddress;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -29,43 +33,40 @@ public class RPCClient {
 
     //创建一个代理对象
     public static Object createProxy(final Class<?> serviceClass,
-                                     final String serverIp,
-                                     final int port) {
+                                     final InetSocketAddress serverIP,
+                                     final RPCClientChannelPoolRepo poolRepo) {
         return Proxy.newProxyInstance(Thread.currentThread().getContextClassLoader(),
                 new Class<?>[]{serviceClass}, (proxy, method, args) -> {
 
-                    RPCClientHandler client = new RPCClientHandler();
-                    EventLoopGroup workerGroup = new NioEventLoopGroup();
-                    try {
-                        Bootstrap b = new Bootstrap();
-                        b.group(workerGroup).channel(NioSocketChannel.class);
-                        b.option(ChannelOption.TCP_NODELAY, true);
-                        b.handler(new ChannelInitializer<SocketChannel>() {
-                            public void initChannel(SocketChannel ch) {
-                                ch.pipeline().addLast(new RPCDecoder(RPCResponse.class));
-                                ch.pipeline().addLast(new RPCEncoder());
-                                ch.pipeline().addLast(client); //千万小心，不要再new一个RPCClientHandler出来
-                            }
-                        });
+                    SyncFuture syncFuture = null;
+                    String uid = null;
 
-                        Channel channel = b.connect(serverIp, port).sync().channel();
-
+                    SimpleChannelPool pool = poolRepo.poolMap.get(serverIP);
+                    Future<Channel> f = pool.acquire();//多线程下是否安全？？？
+                    f.get();//本来也可以用addlistner的方式,但不清楚怎样传出uid和syncfuture
+                    if(f.isSuccess()){
+                        uid = UnicodeUtils.randomBaseID(8);
+                        syncFuture = new SyncFuture();
+                        Channel ch = f.getNow();
                         //发送请求
                         RPCRequest req = new RPCRequest();
+                        req.setMsgId(uid);
                         req.setServiceName(serviceClass.getName());
                         req.setMethodName(method.getName());
                         Class[] paramTypes = method.getParameterTypes();
                         req.setParamsType(paramTypes);
                         req.setParamsValue(args);
 
-                        channel.writeAndFlush(req).sync();
-                        channel.closeFuture().sync();//只有TCP链接关闭才会通知closefuture,本应用是服务器主动关闭链接
-                        return client.getResponse();
+                        RPCClientChannelPoolRepo.futureMap.put(uid, syncFuture);
+                        ch.writeAndFlush(req);//异步动作
 
-                    } finally {
-                        // Shut down all event loops to terminate all threads.
-                        workerGroup.shutdownGracefully();
+                        pool.release(ch);
                     }
+
+                    Object obj = syncFuture.get();
+                    RPCClientChannelPoolRepo.futureMap.remove(uid);
+                    return obj;
+
 
                 });
     }

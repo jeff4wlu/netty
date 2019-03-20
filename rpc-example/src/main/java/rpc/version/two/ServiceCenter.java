@@ -7,6 +7,7 @@ import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.LineBasedFrameDecoder;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
@@ -58,7 +59,7 @@ public class ServiceCenter implements Server {
 
             b.childHandler(new ChannelInitializer<SocketChannel>() {
                 public void initChannel(SocketChannel ch) throws Exception {
-                    //ch.pipeline().addLast(new LineBasedFrameDecoder(1024));// 根据 分隔符（换行符）分割，分割后还是一个 ByteBuf
+                    ch.pipeline().addLast(new LengthFieldBasedFrameDecoder(2048, 0, 4, 0, 4));
                     ch.pipeline().addLast(new RPCEncoder());
                     ch.pipeline().addLast(new RPCDecoder(RPCRequest.class));
                     ch.pipeline().addLast(new RPCServerHandler(serviceRegistry)); // 业务处理类

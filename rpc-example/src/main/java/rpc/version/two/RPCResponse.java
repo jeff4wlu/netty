@@ -13,4 +13,5 @@ public class RPCResponse{
     private int code;
     private String error;
     private Object result;
+    private String msgId;
 }
